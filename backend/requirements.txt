@@ -1,2 +1,5 @@
-fastapi==0.68.0 
-uvicorn[standard]==0.15.0 
+# Backend requirements.txt
+fastapi==0.68.0
+uvicorn
+sqlalchemy==1.4.22  # If using databases
+pydantic==1.8.2     # For data validation

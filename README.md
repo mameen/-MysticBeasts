@@ -31,6 +31,14 @@ git clone https://yourrepositorylink.com/mysticbeasts.git
 cd mysticbeasts
 ```
 
+### Installation
+```bash
+pip install -r .\requirements.txt 
+pip install -r .\frontend\requirements.txt 
+pip install -r .\backend\requirements.txt 
+```
+
+
 ### Building and Running with Docker
 After you have completed the initial setup, you can build and run the Docker container with the following commands:
 

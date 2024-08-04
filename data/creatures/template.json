@@ -1,0 +1,33 @@
+{
+    "creature_id": "unique_creature_id",
+    "name": "Creature Name",
+    "description": "A brief description of the creature's lore and significance in the game.",
+    "attributes": {
+      "strength": 25,
+      "magic": 40,
+      "agility": 20,
+      "wisdom": 15
+    },
+    "abilities": [
+      {
+        "ability_name": "Fire Breath",
+        "ability_description": "Emits a powerful stream of fire, dealing damage to enemies in front of the creature.",
+        "ability_effect": {
+          "damage": 30,
+          "area_of_effect": "5 meters"
+        }
+      },
+      {
+        "ability_name": "Healing Song",
+        "ability_description": "Sings an ancient melody that heals allies within earshot.",
+        "ability_effect": {
+          "heal": 25,
+          "radius": "10 meters"
+        }
+      }
+    ],
+    "image": "template_creature_image.png",
+    "card_image": "template_card_image.png",
+    "rarity": "common"
+  }
+  
